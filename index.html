@@ -244,6 +244,7 @@
       <div class="bio">
         <p>Hola, soy Alexis. Me gusta la materia de informática y estoy aprendiendo a crear páginas web. Esta pagina esta creada a base de Visual Studio Code con codigos de HTML.</p>
       </div>
+      <p>Esta pagina, solamente esta hecha para comprobar si puedo crear pagina web
     </div>
   </div>
 
@@ -304,9 +305,9 @@
     function obtenerSaludo() {
       const ahora = new Date();
       const hora = ahora.getHours();
-      if (hora >= 5 && hora < 12) return "Buenos días";
-      if (hora >= 12 && hora < 19) return "Buenas tardes";
-      return "Buenas noches";
+      if (hora >= 5 && hora < 12) return "Buenos días 😊";
+      if (hora >= 12 && hora < 19) return "Buenas tardes 😊";
+      return "Buenas noches 😊";
     }
     document.getElementById("saludo").textContent = `${obtenerSaludo()}`;
 
