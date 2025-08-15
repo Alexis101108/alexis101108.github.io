@@ -242,9 +242,9 @@
         <img src="https://i.supaimg.com/8b78ed41-92ee-4077-b886-175da32e31f5.jpg" alt="">
       </div>
       <div class="bio">
-        <p>Hola, soy Alexis. Me gusta la materia de informática y estoy aprendiendo a crear páginas web. Esta pagina esta creada a base de Visual Studio Code con codigos de HTML.</p>
+        <p>Hola, soy Alexis. Me gusta la materia de informática y en mis tiempos libres me dedico a la computacion en mi casa, ya que me pongo a hacer  varias funciones en la computacion, gracias a la ayuda del profesor Gabriel Loza he hecho varias funciones como: Ponchado de cable de red Rj45, activar licencia de office, instalar diferentes tipos de sistemas operativos, etc, yo por mi propia cuenta he aprendido a  cambiar la contraseña de del wi-fi, he usado Visual Studio Code (VSC) con codigos de HTML, python, java, eso he aprendido en mi trayectoria en bachillerato.</p>
       </div>
-      <p>Esta pagina, solamente esta hecha para comprobar si puedo crear pagina web
+      <p>Esta pagina esta hecha solamente para hablar de la trayectoria que he llevado a lo largo de mi vida, y pues no es dificil aprender.
     </div>
   </div>
 
@@ -255,14 +255,15 @@
         <img src="https://images.ctfassets.net/szez98lehkfm/5pyR5A38XGf3q11zNr8cMo/9ace97d9015f01a2c97a937edefe335d/MyIC_Inline_60899?fm=webp&w=490" alt="Estudio">
         <div class="project-content">
           <div><strong>1. ESTUDIO</strong></div>
-          <div>Organizo mi tiempo y aprendo nuevas tecnologías.</div>
-        </div>
-      </div>
+          <div>Organizo mi tiempo y aprendo nuevas tecnologías, aprendo mas tecnologia en la EPO 193 .</div>      
+        </div>  
+       </div>
+     </div>
       <div class="project-card">
         <img src="https://blogs.uoc.edu/informatica/wp-content/uploads/sites/153/2017/03/cx-picture-100608993-primary-idge_.jpg" alt="Informática">
         <div class="project-content">
           <div><strong>2. INFORMÁTICA</strong></div>
-          <div>Me gusta programar y entender cómo funcionan los sistemas.</div>
+          <div>Me gusta programar y entender cómo funcionan los sistemas, tambien conocer mas sobre la informatica general.</div>
         </div>
       </div>
       <div class="project-card">
@@ -274,10 +275,19 @@
       </div>
     </div>
   </div>
-
   <div class="section delay-3">
+      <div class="project-card">
+        <div class="project-content">
+          <div><strong> INFORMACION</strong></div>
+          <div>La informatica se lleva a cabo en todos los aspectos de la vida cotidiana ya que en cualquier trabajo de oficina te piden habilidades de computacion</div>
+        </div>
+      </div>
+    </div>
+  </div>
+      
+  <div class="section delay-4">
     <h2>Contacto</h2>
-    <p>Llena el formulario y te muestro un mensaje (simulado, no se envía realmente).</p>
+    <p>Llena el formulario.</p>
     <form id="contactForm">
       <div>
         <label for="nombre">Nombre</label><br>
@@ -289,7 +299,7 @@
       </div>
       <div>
         <label for="mensaje">Mensaje</label><br>
-        <textarea id="mensaje" required placeholder="Escribe algo..."></textarea>
+        <textarea id="mensaje" required placeholder="Escribe algo que te haya gustado de la pagina..."></textarea>
       </div>
       <button type="submit" class="btn">Enviar</button>
       <div id="feedback" class="feedback"></div>
@@ -355,7 +365,7 @@
         feedback.className = "feedback error";
         return;
       }
-      feedback.textContent = `¡Gracias, ${nombre}! Tu mensaje se recibió (simulado).`;
+      feedback.textContent = `¡Gracias, ${nombre}! Tu mensaje se recibió.`;
       feedback.className = "feedback success";
       setTimeout(() => {
         document.getElementById("contactForm").reset();
